@@ -1,4 +1,4 @@
-// CRIANDO VARIÁVEL PARA CARD-BODY RECEBER SEUS FILHOS
+// CR4IANDO VARIÁVEL PARA CARD-BODY RECEBER SEUS FILHOS
 let cardBody = document.querySelector('#cardbody')
 
 async function adicionarDados(){
@@ -26,7 +26,9 @@ async function adicionarDados(){
       // ENVIANDO AS TAG'S FILHAS, PARA O PAI CARD-BODY
       cardBody.appendChild(titulo)
       cardBody.append(texto)
+
     }
+    
     
 
   } catch (error) {
